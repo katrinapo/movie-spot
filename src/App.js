@@ -7,7 +7,6 @@ import RemoveNominees from './components/RemoveNominees';
 import Footer from './components/Footer';
 import tachyons from 'tachyons';
 import './App.css';
-
 import ReactNotification from 'react-notifications-component';
 import {store} from "react-notifications-component";
 import "animate.css";
