@@ -34,16 +34,16 @@ const App = () => {
     getMovieRequest(searchValue);
   }, [searchValue]);
 
-  useEffect(() => {
+  {/*useEffect(() => {
     const movieNominations = JSON.parse(
       localStorage.getItem('theShoppies-movie-app-nominations'));
   
       setNominees(movieNominations);
-  }, [nominees]);
+  }, [nominees]);*/}
 
-  const saveToLocalStorage = (items) => {
+  {/*const saveToLocalStorage = (items) => {
     localStorage.setItem('theShoppies-movie-app-nominations', JSON.stringify(items));
-  }
+  }*/}
 
   const handleDuplicateAdd = () => {
     store.addNotification({
@@ -86,7 +86,7 @@ const App = () => {
   
     if (nomineesList.length <= 5) {
       setNominees([...new Set(nomineesList)]);
-      saveToLocalStorage(nomineesList);
+      {/*saveToLocalStorage(nomineesList);*/}
     }
     if(nomineesList.length === 5) {
       handleFiveNominations();
@@ -99,16 +99,16 @@ const App = () => {
       );
   
     setNominees(nomineeList);
-    saveToLocalStorage(nomineeList);
+    {/*saveToLocalStorage(nomineeList);*/}
   }
 
   return (
     <div>
       <div>
-        <MovieListHeading heading="The Shoppies" headingDescription="Movie awards for Entrepreneurs" subheading="Brought to you by Shopify"/>
+        <MovieListHeading heading="The Movie Spot" headingDescription="All the info on your favourite films!" subheading="Brought to you by Quaratine 2021"/>
       </div>
       <div className="tc">
-      <p className="pa4">Select up to five nominations for this years movie awards!</p>
+      <p className="pa4">Shortlist up to five of your favourite movies below!</p>
       <SearchBox searchValue={searchValue} setSearchValue={setSearchValue} />
       <ReactNotification />
       </div>
@@ -117,7 +117,7 @@ const App = () => {
       </div>
 
       <div>
-        <h2 className="tc bangersFont i fw1 f2 pb3">Nominations:</h2>
+        <h2 className="tc bangersFont i fw1 f2 pb3">Favourites:</h2>
       </div>
       <div className="pa4">
         <MovieList movies={nominees} handleNomineesClick={removeNomination} nomineesComponent={RemoveNominees}/>
