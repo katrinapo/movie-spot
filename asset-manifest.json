@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/the-shoppies/static/css/main.a1603694.chunk.css",
-    "main.js": "/the-shoppies/static/js/main.9974e2d1.chunk.js",
-    "main.js.map": "/the-shoppies/static/js/main.9974e2d1.chunk.js.map",
-    "runtime-main.js": "/the-shoppies/static/js/runtime-main.0800e837.js",
-    "runtime-main.js.map": "/the-shoppies/static/js/runtime-main.0800e837.js.map",
-    "static/css/2.e63234ad.chunk.css": "/the-shoppies/static/css/2.e63234ad.chunk.css",
-    "static/js/2.f0b2bb4e.chunk.js": "/the-shoppies/static/js/2.f0b2bb4e.chunk.js",
-    "static/js/2.f0b2bb4e.chunk.js.map": "/the-shoppies/static/js/2.f0b2bb4e.chunk.js.map",
-    "static/js/3.03cffba1.chunk.js": "/the-shoppies/static/js/3.03cffba1.chunk.js",
-    "static/js/3.03cffba1.chunk.js.map": "/the-shoppies/static/js/3.03cffba1.chunk.js.map",
-    "index.html": "/the-shoppies/index.html",
-    "static/css/2.e63234ad.chunk.css.map": "/the-shoppies/static/css/2.e63234ad.chunk.css.map",
-    "static/css/main.a1603694.chunk.css.map": "/the-shoppies/static/css/main.a1603694.chunk.css.map",
-    "static/js/2.f0b2bb4e.chunk.js.LICENSE.txt": "/the-shoppies/static/js/2.f0b2bb4e.chunk.js.LICENSE.txt",
-    "static/media/tapes.635d2be2.mp4": "/the-shoppies/static/media/tapes.635d2be2.mp4"
+    "main.css": "/movie-spot/static/css/main.a1603694.chunk.css",
+    "main.js": "/movie-spot/static/js/main.7eef5cae.chunk.js",
+    "main.js.map": "/movie-spot/static/js/main.7eef5cae.chunk.js.map",
+    "runtime-main.js": "/movie-spot/static/js/runtime-main.5177302a.js",
+    "runtime-main.js.map": "/movie-spot/static/js/runtime-main.5177302a.js.map",
+    "static/css/2.e63234ad.chunk.css": "/movie-spot/static/css/2.e63234ad.chunk.css",
+    "static/js/2.e3d37e49.chunk.js": "/movie-spot/static/js/2.e3d37e49.chunk.js",
+    "static/js/2.e3d37e49.chunk.js.map": "/movie-spot/static/js/2.e3d37e49.chunk.js.map",
+    "static/js/3.03cffba1.chunk.js": "/movie-spot/static/js/3.03cffba1.chunk.js",
+    "static/js/3.03cffba1.chunk.js.map": "/movie-spot/static/js/3.03cffba1.chunk.js.map",
+    "index.html": "/movie-spot/index.html",
+    "static/css/2.e63234ad.chunk.css.map": "/movie-spot/static/css/2.e63234ad.chunk.css.map",
+    "static/css/main.a1603694.chunk.css.map": "/movie-spot/static/css/main.a1603694.chunk.css.map",
+    "static/js/2.e3d37e49.chunk.js.LICENSE.txt": "/movie-spot/static/js/2.e3d37e49.chunk.js.LICENSE.txt",
+    "static/media/tapes.635d2be2.mp4": "/movie-spot/static/media/tapes.635d2be2.mp4"
   },
   "entrypoints": [
-    "static/js/runtime-main.0800e837.js",
+    "static/js/runtime-main.5177302a.js",
     "static/css/2.e63234ad.chunk.css",
-    "static/js/2.f0b2bb4e.chunk.js",
+    "static/js/2.e3d37e49.chunk.js",
     "static/css/main.a1603694.chunk.css",
-    "static/js/main.9974e2d1.chunk.js"
+    "static/js/main.7eef5cae.chunk.js"
   ]
 }
